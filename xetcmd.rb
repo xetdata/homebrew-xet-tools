@@ -1,16 +1,16 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Releases < Formula
-  desc "Xet is the CLI for use with xetbeta.com."
-  homepage "https://github.com/xetdata/releases"
-  url "https://github.com/xetdata/releases/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "de95f7d5882e5fed779d5cbef5c4963b3e929b3151e3b8bcdb7286a27ad62102"
+class Xetcmd < Formula
+  desc "Location for our releases."
+  homepage "https://github.com/xethub/xetcmd"
+  url "https://github.com/xetdata/xetcmd/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "f60028dcdb129840e6941dd55c6ef1450e5abeb779d4175218cadde3666a4fbd"
   license "MIT"
 
+  # depends_on "cmake" => :build
 
   def install
-    system "./configure", *std_configure_args, "--disable-silent-rules"
     bin.install 'xet'
   end
 
