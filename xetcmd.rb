@@ -4,8 +4,8 @@
 class Xetcmd < Formula
   desc "Location for our releases."
   homepage "https://github.com/xethub/xetcmd"
-  url "https://github.com/xetdata/xetcmd/releases/download/v0.1.45-alpha/test-v0.1.45-alpha-mac-x86_64.tar.gz"
-  sha256 "79d86d5c1dabcde84b049cf9748683cffc22790f0a4d48467f0274d649ed8188"
+  url "https://github.com/xetdata/xetcmd/releases/download/v0.1.46/xet-v0.1.46-mac-x86_64.tar.gz"
+  sha256 ""
   license "MIT"
 
   # depends_on "cmake" => :build
