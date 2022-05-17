@@ -1,4 +1,4 @@
-class Xetcmd < Formula
+class XetTools < Formula
   desc "XetHub CLI Tools Homebrew Tap."
   homepage "https://github.com/xethub/xet-tools"
   url "https://github.com/xetdata/xet-tools/releases/download/v0.1.0-test2/xet-v0.1.0-test2-mac-universal.tar.gz"
