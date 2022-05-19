@@ -1,8 +1,8 @@
 class XetTools < Formula
   desc "XetHub CLI Tools Homebrew Tap."
   homepage "https://github.com/xethub/xet-tools"
-  url "https://github.com/xetdata/xet-tools/releases/download/v0.1.0-demo/xet-v0.1.0-demo-mac-universal.tar.gz"
-  sha256 "283b442ff1a2296f62de65c4e09f525f1e651bea8f4f0d13aa19b90d5f9d4ec0"
+  url "https://github.com/xetdata/xet-tools/releases/download/v0.2.1/xet-v0.2.1-mac-universal.tar.gz"
+  sha256 "4d37145c92f32015aed9705dc171faf4468deb114620b5f0de7411a943219f7c"
   license :cannot_represent
 
   def install
