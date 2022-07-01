@@ -8,7 +8,6 @@ class XetTools < Formula
   def install
     bin.install 'xet'
     bin.install 'git-xet'
-    system 'git-xet', 'install'
   end
 
 end
