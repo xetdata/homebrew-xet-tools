@@ -5,6 +5,16 @@ class XetTools < Formula
   sha256 "%SHA%"
   license :cannot_represent
 
+  on_macos do
+    url "%MAC_URL%"
+    sha256 "%MAC_SHA%"
+  end
+
+  on_linux do
+    url "%LINUX_URL%"
+    sha256 "%LINUX_SHA%"
+  end
+
   def install
     bin.install 'xet'
     bin.install 'git-xet'
