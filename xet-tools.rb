@@ -18,6 +18,11 @@ class XetTools < Formula
   def install
     bin.install 'xet'
     bin.install 'git-xet'
+    bin.echo 'Update your git config to finish installation:
+
+    # Update global git config
+    $ git lfs init
+    $ git lfs install'
   end
 
 end
