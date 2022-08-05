@@ -16,7 +16,7 @@ class XetTools < Formula
   end
 
   def install
-    bin.install 'xet'
+    # bin.install 'xet'
     bin.install 'git-xet'
     bin.echo 'Update your git config to finish installation:
 
