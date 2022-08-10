@@ -15,12 +15,21 @@ class XetTools < Formula
     sha256 "%LINUX_SHA%"
   end
 
+  def caveats
+    <<~CAVEAT
+      Update your repo config to finish installation:
+
+      # Update global repo config
+      $ git xet install
+      
+      More documentation here: https://hub.xetsvc.com/assets/docs
+    CAVEAT
+  end
+
   def install
     bin.install 'git-xet'
-    bin.echo 'Update your repo config to finish installation:
-
-    # Update global repo config
-    $ git xet install'
   end
 
 end
+
+
