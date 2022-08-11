@@ -14,9 +14,19 @@ class XetTools < Formula
     url "https://github.com/xetdata/xet-tools/releases/download/v0.5.1/xet-v0.5.1-linux-x86_64.tar.gz"
     sha256 "0228e14c3cd384f3d7a81ff634dfd202d5f1071aa3cd6e4090e1ad59ef10123a"
   end
+  
+  def caveats
+    <<~CAVEAT
+      Update your repo config to finish installation:
+
+      # Update global repo config
+      $ git xet install
+      
+      More documentation here: https://hub.xetsvc.com/assets/docs
+    CAVEAT
+  end
 
   def install
-    bin.install 'xet'
     bin.install 'git-xet'
   end
 
