@@ -6,15 +6,15 @@ class XetTools < Formula
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.5.1/xet-v0.5.1-mac-universal.tar.gz"
-    sha256 "8cc9f352c1be1ba1ceadc1c5e6112814664461302037476f14830c67277402a7"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.6.1/xet-v0.6.1-mac-universal.tar.gz"
+    sha256 "1a815c42c779222e50b570a5def803b0c2b35fbb19e06740e31d911efc5973a5"
   end
 
   on_linux do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.5.1/xet-v0.5.1-linux-x86_64.tar.gz"
-    sha256 "0228e14c3cd384f3d7a81ff634dfd202d5f1071aa3cd6e4090e1ad59ef10123a"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.6.1/xet-v0.6.1-linux-x86_64.tar.gz"
+    sha256 "79aec4c47e5abc871e721ac939c0f2a54c543489d7f7dfe6377f1a8eaf3b69c2"
   end
-  
+
   def caveats
     <<~CAVEAT
       Update your repo config to finish installation:
@@ -31,3 +31,5 @@ class XetTools < Formula
   end
 
 end
+
+
