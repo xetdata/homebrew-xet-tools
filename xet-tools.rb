@@ -6,13 +6,13 @@ class XetTools < Formula
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.7.0/xet-v0.7.0-mac-universal.tar.gz"
-    sha256 "7bc525d6b97982cf96f297f77eaa216a77791d7e2d96302cc9c32778d49c32d5"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.7.1/xet-v0.7.1-mac-universal.tar.gz"
+    sha256 "6f3c3b8e10d2a138aa5fd60af74a2ff02c0dfa3a34b538d4aa661d0a2344fdef"
   end
 
   on_linux do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.7.0/xet-v0.7.0-linux-x86_64.tar.gz"
-    sha256 "d731d8507bed4f26ea95ac14ab3d8f3eec247fed7738e36a77e993a7374d7d91"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.7.1/xet-v0.7.1-linux-x86_64.tar.gz"
+    sha256 "fc3ec46616d6c0416d5f15f1376be88b743b8e88b7d5a4372b9ca9711c30e667"
   end
 
   def caveats
