@@ -1,6 +1,6 @@
 class XetTools < Formula
   desc "XetHub CLI Tools Homebrew Tap."
-  homepage "https://github.com/xethub/xet-tools"
+  homepage "https://github.com/xetdata/xet-tools"
   url "%URL%"
   sha256 "%SHA%"
   license :cannot_represent
@@ -11,7 +11,7 @@ class XetTools < Formula
   end
 
   on_linux do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.7.1/xet-v0.7.1-linux-x86_64.tar.gz"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.7.1/xet-v0.7.1-linux.tar.gz"
     sha256 "fc3ec46616d6c0416d5f15f1376be88b743b8e88b7d5a4372b9ca9711c30e667"
   end
 
@@ -22,7 +22,7 @@ class XetTools < Formula
       # Update global repo config
       $ git xet install
       
-      More documentation here: https://hub.xetsvc.com/assets/docs
+      More documentation here: https://xethub.com/assets/docs
     CAVEAT
   end
 
