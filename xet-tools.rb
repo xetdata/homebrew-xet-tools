@@ -1,8 +1,7 @@
 class XetTools < Formula
   desc "XetHub CLI Tools Homebrew Tap."
-  homepage "https://github.com/xethub/xet-tools"
-  url "%URL%"
-  sha256 "%SHA%"
+  homepage "https://github.com/xetdata/xet-tools"
+  version "v0.7.1"
   license :cannot_represent
 
   on_macos do
@@ -22,7 +21,7 @@ class XetTools < Formula
       # Update global repo config
       $ git xet install
       
-      More documentation here: https://hub.xetsvc.com/assets/docs
+      More documentation here: https://xethub.com/assets/docs
     CAVEAT
   end
 
