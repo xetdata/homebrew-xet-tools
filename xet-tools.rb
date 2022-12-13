@@ -2,7 +2,7 @@ class XetTools < Formula
   desc "XetHub CLI Tools Homebrew Tap."
   homepage "https://github.com/xetdata/xet-tools"
   license :cannot_represent
-  version "v0.7.2"
+  version "0.7.2"
 
   on_macos do
     url "https://github.com/xetdata/xet-tools/releases/download/v0.7.2/xet-v0.7.2-mac-universal.tar.gz"
