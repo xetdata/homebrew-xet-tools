@@ -5,12 +5,12 @@ class XetTools < Formula
   version "0.9.0"
 
   on_macos do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.9.0/xet-v0.9.0-mac-universal.tar.gz"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.9.0/xet-mac-universal.tar.gz"
     sha256 ""
   end
 
   on_linux do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.9.0/xet-v0.9.0-linux-x86_64.tar.gz"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.9.0/xet-linux-x86_64.tar.gz"
     sha256 ""
   end
 
