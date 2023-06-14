@@ -6,7 +6,7 @@ class XetTools < Formula
 
   on_macos do
     url "https://github.com/xetdata/xet-tools/releases/download/v0.10.1/xet-mac-universal.tar.gz"
-    sha256 "86ea3f1f0b4e9a1a4397569fe0632a07d268b268724d97421d7e7832dc2951f1"
+    sha256 "39b9827a385cebd62f181309ca4f88cd44cf8675884593b71c427397f72cac08"
   end
 
   on_linux do
