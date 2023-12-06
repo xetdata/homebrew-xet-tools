@@ -6,12 +6,12 @@ class XetTools < Formula
 
   on_macos do
     url "https://github.com/xetdata/xet-tools/releases/download/v0.12.6/xet-mac-universal.tar.gz"
-    sha256 "896809d8a87e14f2ca0e248025d7b22aeab03634449387244f45f93b9bf75270"
+    sha256 "c94057d9e40316d26527969bfbf03bb591c2ee3be655117c04f299c54d14587c"
   end
 
   on_linux do
     url "https://github.com/xetdata/xet-tools/releases/download/v0.12.6/xet-linux-x86_64.tar.gz"
-    sha256 "bb6b194fa2e707a1059ec32c8fef2307debc3e46b6c72f00e6e8cab7e8ba6ad6"
+    sha256 "af2e1f128af5dcf68dcf75978eaecac0ae162493edcaa12438e100262cef290c"
   end
 
   def caveats
