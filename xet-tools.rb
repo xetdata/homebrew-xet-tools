@@ -2,16 +2,16 @@ class XetTools < Formula
   desc "XetHub CLI Tools Homebrew Tap."
   homepage "https://github.com/xetdata/xet-tools"
   license :cannot_represent
-  version "0.12.8"
+  version "0.13.0"
 
   on_macos do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.12.8/xet-mac-universal.tar.gz"
-    sha256 "3acd4e6fac0a4bb678bc5ad25cc74c4bdcaefe1b193d751768f98ead2b4ca23a"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.13.0/xet-mac-universal.tar.gz"
+    sha256 "6b110c9baa9e0b933f8aad4235d62e6c98de278c14ca18a1bcf99c82edb74809"
   end
 
   on_linux do
-    url "https://github.com/xetdata/xet-tools/releases/download/v0.12.8/xet-linux-x86_64.tar.gz"
-    sha256 "7de32b4f111ab7e07cbf423cba43c3ece797afdaae806c536d45f441824d6910"
+    url "https://github.com/xetdata/xet-tools/releases/download/v0.13.0/xet-linux-x86_64.tar.gz"
+    sha256 "69e66b12081fe832031b44493b8e4089e987427539b1500922ceb0dcea58f94d"
   end
 
   def caveats
